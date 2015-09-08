@@ -1,0 +1,288 @@
+@import url('reset.css');
+
+@font-face {
+    font-family: "Didact Gothic";
+    src: url(../fonts/didactgothic/didactgothic.ttf);
+}
+
+@font-face {
+    font-family: Shanti;
+    src: url(../fonts/shanti_[allfont.ru].ttf);
+}
+
+.wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+
+header {
+    min-height: 100px;
+    background-color: #ffffff;
+}
+
+.logo {
+    font-family: "Didact Gothic", Arial, Helvetica, sans-serif;
+    float: left;
+    margin: 17px 0 0 42px ;
+    display: block;
+}
+
+.green {
+    position: relative;
+    height: 62px;
+    width: 104px;
+    background-image: linear-gradient(to bottom, rgb(121,182,0), rgb(51,140,0));
+    background-image: -ms-linear-gradient(to bottom, rgb(121,182,0), rgb(51,140,0));
+    background-image: -webkit-linear-gradient(to bottom, rgb(121,182,0), rgb(51,140,0));
+    background-image: -moz-linear-gradient(to bottom, rgb(121,182,0), rgb(51,140,0));
+    background-image: -o-linear-gradient(to bottom, rgb(121,182,0), rgb(51,140,0));
+    -pie-background: linear-gradient(#79B600, #338C00);
+    border-radius: 10px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, .3);
+    float: left;
+    margin-right: 10px;
+    behavior: url(PIE.htc);
+}
+
+.green p {
+    font-size: 47px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.white {
+    padding-top: 4px;
+    font-size: 60px;
+    color: black;
+    float: left;
+}
+
+nav {
+    margin: 43px 10px 0 0;
+    float: right;
+}
+nav ul {
+
+}
+
+nav ul li {
+    float: left;
+    margin-right: 2px;
+}
+
+nav ul li a {
+    position: relative;
+    display: inline-block;
+    background-color: #F2F2F2;
+    border-radius: 10px 10px 0 0;
+    behavior: url(PIE.htc);
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding: 19px 31px;
+}
+
+nav a:hover {
+    background-color: #7BB600;
+}
+
+.home a {
+    background-color: #7BB600;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.slider {
+    position: relative;
+    background-color: #7BB600;
+    background-image: radial-gradient(ellipse at 50% 0%, #96ba00 0%,#427100 100%);
+    background-image: -ms-radial-gradient(ellipse at 50% 0%, #96ba00 0%,#427100 100%);
+    background-image: -webkit-radial-gradient(ellipse at 50% 0%, #96ba00 0%,#427100 100%);
+    background-image: -o-radial-gradient(ellipse at 50% 0%, #96ba00 0%,#427100 100%);
+    background-image: -moz-radial-gradient(ellipse at 50% 0%, #96ba00 0%,#427100 100%);
+    border-radius: 0 0 20px 20px;
+    behavior: url(PIE.htc);
+    margin: 0 12px;
+    height: 410px;
+}
+
+.text {
+    float: left;
+    margin: 63px 125px 70px 40px;
+}
+
+.h2 {
+    font-family: "Didact Gothic", Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    line-height: 40px;
+}
+
+.h2 span {
+    font-family: "Didact Gothic", Arial, Helvetica, sans-serif;
+    font-size: 75px;
+    color: white;
+}
+
+.text p {
+    font-family: "Didact Gothic", Arial, Helvetica, sans-serif;
+    font-size : 20px;
+    color: white;
+    line-height: 20px;
+    padding: 15px 0 27px 0;
+    margin-bottom: 20px;
+}
+
+.text a {
+    position: relative;
+    font-family: "Didact Gothic", Arial, Helvetica, sans-serif;
+    font-size : 24px;
+    color: #3d6c00;
+    line-height: 20px;
+    text-shadow: 0 1px 0 #ffffff;
+    background-image: linear-gradient(to bottom, rgba(252,252,252,0.12),rgba(2,2,2,0.12));
+    background-image: -ms-linear-gradient(to bottom, rgba(252,252,252,0.12),rgba(2,2,2,0.12));
+    background-image: -moz-linear-gradient(to bottom, rgba(252,252,252,0.12),rgba(2,2,2,0.12));
+    background-image: -webkit-linear-gradient(to bottom, rgba(252,252,252,0.12),rgba(2,2,2,0.12));
+    background-image: -o-linear-gradient(to bottom, rgba(252,252,252,0.12),rgba(2,2,2,0.12));
+    -pie-background: linear-gradient(#FCFCFC, #e3e3e3);
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 4px 5px rgba(0,0,0,.75);
+    behavior: url(PIE.htc);
+    padding: 7px 14px 3px 14px;
+}
+
+.pict {
+    display: block;
+    margin: 55px 110px 51px 0;
+    float: right;
+}
+
+.pict img {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px rgba(0,0,0,.75);
+    behavior: url(PIE.htc);
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content {
+    margin: 45px auto 60px 60px;
+}
+
+aside {
+    float: left;
+    width: 370px;
+    height: auto;
+}
+
+aside img {
+    float: left;
+    display: block;
+    padding-right:20px;
+}
+
+aside p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 13px;
+    line-height: 18px;
+    color: #818181;
+}
+aside p:nth-child(odd) {
+    margin-bottom: 40px;
+}
+
+.meta {
+    color: black;
+    padding: 5px 0 5px 0;
+}
+
+.news1, .news2, .news3 {
+    margin: 30px 20px 15px 0;
+}
+
+h3 {
+    font-family: Shanti, Arial, Helvetica, sans-serif;
+    font-size : 36px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+section, h5 {
+    margin-left: 370px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 13px;
+    line-height: 18px;
+}
+
+section img {
+    float: left;
+    margin: 20px 20px 0 0;
+
+}
+.item1, .item2 {
+    margin: 20px 20px 35px 0;
+
+}
+
+.item2 {
+    margin: 20px 20px 66px 0;
+}
+
+h4 {
+    margin-top: 30px;
+}
+
+section p {
+    color: #818181;
+    padding-top: 5px;
+}
+
+section a {
+    text-decoration: underline;
+    color: black;
+}
+
+h5 {
+    position: relative;
+    text-align: center;
+    margin: 15px 10px 30px 430px;
+    background-image: linear-gradient(to top, rgba(15,91,26,.51),rgba(194,244,204,.51));
+    background-image: -ms-linear-gradient(to top, rgba(15,91,26,.51),rgba(194,244,204,.51));
+    background-image: -webkit-linear-gradient(to top, rgba(15,91,26,.51),rgba(194,244,204,.51));
+    background-image: -moz-linear-gradient(to top, rgba(15,91,26,.51),rgba(194,244,204,.51));
+    background-image: -o-linear-gradient(to top, rgba(15,91,26,.51),rgba(194,244,204,.51));
+    -pie-background: linear-gradient(#dcf6e1, #8db392);
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    box-shadow: 1px 4px 5px rgba(0,0,0,.75);
+    background-color: #ffffff;
+    behavior: url(PIE.htc);
+}
+
+h5 a {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #484848;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size : 13px;
+    line-height: 18px;
+    color: #aaaaaa;
+}
+
+footer a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+footer p {
+    padding: 33px 0 33px 0;
+}
